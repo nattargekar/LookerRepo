@@ -19,7 +19,7 @@ view: sample_table {
 
   dimension: phone {
     tags: ["phone"]
-    type: number
+    type: string
     sql: ${TABLE}.Phone ;;
   }
 
